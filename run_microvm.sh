@@ -37,6 +37,10 @@ _start () {
 				kernel=images/alpine-vmlinuz.bin
 				rootfs=images/alpine.ext4
 				;;
+			amazon)
+				kernel=images/hello-vmlinux.bin
+				rootfs=images/hello-rootfs.ext4
+				;;
 			*)
 		esac
 	fi
